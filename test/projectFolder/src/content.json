@@ -1,0 +1,224 @@
+{
+    "mmn": "pp-in-us-0001",
+    "approvalMonth": "<span class='placeholder'>MM</span>",
+    "approvalYear": "<span class='placeholder'>YYYY</span>",
+    "build-tool-version": "3.0.7",
+    "previewText": [
+        "placeholder_preview_text"
+    ],
+    "subjectLines": [
+        "placeholder_subject_line"
+    ],
+    "content": [
+        {
+            "audience-statement": {
+                "href": "#",
+                "for-hcp": "true"
+            }
+        },
+        {
+            "branded-header": {
+                "logo-src": "http://via.placeholder.com/350x150",
+                "logo-href": "[logo href here]",
+                "logo-alt-text": "Delebas",
+                "logo-large": "6",
+                "links-large": "6",
+                "prescribing-text": "Prescribing Information",
+                "prescribing-href": "[link goes here]",
+                "isi-and-box-text": "Important Safety Information <nobr>and Boxed Warning</nobr>",
+                "isi-and-box-href": "[link goes here]",
+                "custom-content": ""
+            }
+        },
+        {
+            "spacer": "16"
+        },
+        {
+            "unbranded-header": {
+                "logo-src": "http://image.mc.lilly.com/lib/fe9d12747561067c75/m/1/lilly_logo_white.png",
+                "logo-alt-text": "Eli Lilly and Company"
+            }
+        },
+        {
+            "spacer": "16"
+        },
+        {
+            "banner-with-button": {
+                "content": [
+                    {
+                        "p": {
+                            "class": "no-margin-top",
+                            "content": "This is paragraph text with <i>some formatting</i> using basic <b>html tags</b><sup>1</sup>."
+                        }
+                    }
+                ],
+                "button": {
+                    "class": "square inverted small-centered",
+                    "href": "#",
+                    "content": "Call to Action"
+                }
+            }
+        },
+        {
+            "content-card": {
+                "class": "",
+                "content": [
+                    {
+                        "h2": {
+                            "content": "Lorem ipsum dolor sit amet consecteur adiscing elit do eiusmod tempor."
+                        }
+                    },
+                    {
+                        "image": {
+                            "desktop-src": "http://via.placeholder.com/300x200",
+                            "mobile-src": "http://via.placeholder.com/300x200",
+                            "alt-text": "alt text here",
+                            "fixed-width": "520"
+                        }
+                    },
+                    {
+                        "p": {
+                            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+                        }
+                    },
+                    {
+                        "ul": [
+                            "list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1",
+                            "list item 2",
+                            "list item 3"
+                        ]
+                    },
+                    {
+                        "spacer": "8"
+                    },
+                    {
+                        "button": {
+                            "content": "Call to Action",
+                            "href": "#",
+                            "class": "small-centered"
+                        }
+                    },
+                    {
+                        "spacer": "8"
+                    }
+                ]
+            }
+        },
+        {
+            "image-card": {
+                "background-color": "",
+                "padding-top": "0",
+                "padding-bottom": "0",
+                "desktop-src": "http://via.placeholder.com/300x200",
+                "mobile-src": "http://via.placeholder.com/300x200",
+                "alt-text": "[Image Alt Text Goes Here]",
+                "fixed-width": "",
+                "fixed-width-mobile": "200",
+                "href": ""
+            }
+        },
+        {
+            "two-column-card": {
+                "padding-top": "16",
+                "padding-bottom": "16",
+                "columns": [
+                    {
+                        "large": "6",
+                        "content": [
+                            {
+                                "image": {
+                                    "padding-top": "0",
+                                    "padding-bottom": "16",
+                                    "desktop-src": "http://via.placeholder.com/200x200",
+                                    "mobile-src": "http://via.placeholder.com/200x200",
+                                    "alt-text": "[Image Alt Text Goes Here]",
+                                    "fixed-width": "200",
+                                    "fixed-width-mobile": "200"
+                                }
+                            },
+                            {
+                                "h4": {
+                                    "class": "text-center",
+                                    "content": "Header 4 Example"
+                                }
+                            },
+                            {
+                                "p": {
+                                    "class": "small-text-center no-margin-top",
+                                    "content": "Some simple text to accompany the heading above, possibly expanding on previosly discussed points of interest."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "large": "6",
+                        "content": [
+                            {
+                                "image": {
+                                    "padding-top": "0",
+                                    "padding-bottom": "16",
+                                    "desktop-src": "http://via.placeholder.com/200x200",
+                                    "mobile-src": "http://via.placeholder.com/200x200",
+                                    "alt-text": "[Image Alt Text Goes Here]",
+                                    "fixed-width": "200",
+                                    "fixed-width-mobile": "200"
+                                }
+                            },
+                            {
+                                "h4": {
+                                    "class": "text-center",
+                                    "content": "Header 4 Example"
+                                }
+                            },
+                            {
+                                "p": {
+                                    "class": "small-text-center no-margin-top",
+                                    "content": "Some simple text to accompany the heading above, possibly expanding on previosly discussed points of interest."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "spacer": "16"
+        },
+        {
+            "isi-card": {
+                "default": "forteo",
+                "content": []
+            }
+        },
+        {
+            "spacer": "16"
+        },
+        {
+            "references-card": [
+                "list item 1",
+                "reference 2",
+                "reference 3"
+            ]
+        }
+    ],
+    "footers": {
+        "trademarkStatement": "<span class='placeholder'>[brand] is a registered trademark</span>",
+        "vermont": "false",
+        "boehringer": "false",
+        "copyrightYear": "2018",
+        "variations": {
+            "lilly": "true",
+            "healthlink": "true",
+            "ska": "true",
+            "vae": "true",
+            "alert": {
+                "PA": "true",
+                "MD": "true",
+                "NP": "true",
+                "HCP": "true",
+                "Pharm": "true"
+            },
+            "none": "false"
+        }
+    }
+}
