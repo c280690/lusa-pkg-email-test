@@ -1,0 +1,606 @@
+{
+    "mmn": "pp-in-us-0001",
+    "approvalMonth": "<span class='placeholder'>MM</span>",
+    "approvalYear": "<span class='placeholder'>YYYY</span>",
+    "build-tool-version": "3.0.6",
+    "previewText": [
+        "placeholder_preview_text"
+    ],
+    "subjectLines": [
+        "placeholder_subject_line"
+    ],
+    "content": [
+        { "spacer":"64" },
+
+
+
+        
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Audience Statement</strong> - default"
+                ]
+            }
+        },
+        {
+            "audience-statement": {
+                "href": "#",
+                "for-hcp": "true"
+            }
+        },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Audience Statement</strong> - without 'click here' link"
+                ]
+            }
+        },
+        {
+            "audience-statement": {
+                "for-hcp": "true"
+            }
+        },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Audience Statement</strong> - non-HCP"
+                ]
+            }
+        },
+        {
+            "audience-statement": {
+                "for-hcp": "false"
+            }
+        },
+
+
+
+
+        { "spacer": "64" },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Branded Header</strong> - default"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "branded-header": {
+                "logo-src": "http://image.mc.lilly.com/lib/fe8d1274746c037e70/m/1/lilly_taltz_logo_rk01312018.png",
+                "logo-href": "https://www.taltz.com/hcp/",
+                "logo-alt-text": "Delebas",
+                "logo-large": "6",
+                "links-large": "6",
+                "prescribing-text": "Prescribing Information",
+                "prescribing-href": "[link goes here]",
+                "isi-and-box-text": "Important Safety Information <nobr>and Boxed Warning</nobr>",
+                "isi-and-box-href": "[link goes here]",
+                "custom-content": ""
+            }
+        },
+        { "spacer":"4" },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Branded Header</strong> - non-default text, with extra line"
+                ]
+            }
+        },
+        { "spacer":"4" },
+        {
+            "branded-header": {
+                "logo-src": "http://image.mc.lilly.com/lib/fe8d1274746c037e70/m/1/lilly_taltz_logo_rk01312018.png",
+                "logo-href": "https://www.taltz.com/hcp/",
+                "logo-alt-text": "Delebas",
+                "logo-large": "6",
+                "links-large": "6",
+                "prescribing-text": "Non Default Text",
+                "prescribing-href": "https://www.taltz.com/hcp/",
+                "isi-and-box-text": "Important Safety Information <nobr>and Boxed Warning</nobr>",
+                "isi-and-box-href": "https://www.taltz.com/hcp/ ",
+                "custom-content": "additional content <a href='#'>here</a>"
+            }
+        },
+        { "spacer":"4" },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Branded Header</strong> - non-default text, with extra line, and non-default spacing"
+                ]
+            }
+        },
+        { "spacer":"4" },
+        {
+            "branded-header": {
+                "logo-src": "http://image.mc.lilly.com/lib/fe8d1274746c037e70/m/1/lilly_taltz_logo_rk01312018.png",
+                "logo-href": "https://www.taltz.com/hcp/",
+                "logo-alt-text": "Delebas",
+                "logo-large": "4",
+                "links-large": "8",
+                "prescribing-text": "Non Default Text",
+                "prescribing-href": "https://www.taltz.com/hcp/",
+                "isi-and-box-text": "Important Safety Information <nobr>and Boxed Warning</nobr>",
+                "isi-and-box-href": "https://www.taltz.com/hcp/ ",
+                "custom-content": "additional content <a href='#'>here</a>"
+            }
+        },
+
+
+
+
+        { "spacer": "64" },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Unbranded Header</strong> - default"
+                ]
+            }
+        },
+        { "spacer":"4" },
+        {
+            "unbranded-header": {
+                "logo-src": "http://image.mc.lilly.com/lib/fe9d12747561067c75/m/1/lilly_logo_white.png",
+                "logo-alt-text": "Eli Lilly and Company"
+            }
+        },
+
+
+
+
+        { "spacer": "64" },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Banner with Button</strong> - default"
+                ]
+            }
+        },
+        { "spacer":"4" },
+        {
+            "banner-with-button": {
+                "content": [
+                    {
+                        "p": {
+                            "class": "no-margin-top",
+                            "content": "This is paragraph text with <i>some formatting</i> using basic <b>html tags</b><sup>1</sup>."
+                        }
+                    }
+                ],
+                "button": {
+                    "class": "square inverted small-centered",
+                    "href": "#",
+                    "content": "Call to Action"
+                }
+            }
+        },
+        { "spacer": "4" },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Banner with Button</strong> - too much content"
+                ]
+            }
+        },
+        { "spacer":"4" },
+        {
+            "banner-with-button": {
+                "content": [
+                    {
+                        "p": {
+                            "class": "no-margin-top",
+                            "content": "This is paragraph text with <i>some formatting</i> using basic <b>html tags</b><sup>1</sup>.This is paragraph text with <i>some formatting</i> using basic <b>html tags</b><sup>1</sup>.This is paragraph text with <i>some formatting</i> using basic <b>html tags</b><sup>1</sup>."
+                        }
+                    }
+                ],
+                "button": {
+                    "class": "square inverted small-centered",
+                    "href": "#",
+                    "content": "Call to Action"
+                }
+            }
+        },
+
+
+
+
+        { "spacer": "64" },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Content Card</strong> - default typography"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "content-card": {
+                "class":"",
+                "content":[
+                    { "h1": "h1 header" },
+                    "Followed by some example content",
+                    { "h2": "h2 header" },
+                    "Followed by some example content",
+                    { "h3": "h3 header" },
+                    "Followed by some example content",
+                    { "h4": "h4 header" },
+                    "Followed by some example content",
+                    { "h5": "h5 header" },
+                    "Followed by some example content",
+                    { "h6": "h6 header" },
+                    "Followed by some example content. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+                    {
+                        "ol": [
+                            "ordered list item one",
+                            "ordered list item two. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+                            "ordered list item three"
+                        ]
+                    },
+                    "Followed by some example content. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+                    {
+                        "ul": [
+                            "unordered list item one",
+                            "unordered list item two. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+                            "unordered list item three"
+                        ]
+                    },
+                    "small-centered",
+                    {
+                        "spacer": "8"
+                    },
+                    {
+                        "button": {
+                            "content": "Call to Action",
+                            "href": "#",
+                            "class": "small-centered"
+                        }
+                    },
+                    {
+                        "spacer": "8"
+                    },
+                    "centered square inverted",
+                    {
+                        "spacer": "8"
+                    },
+                    {
+                        "button": {
+                            "content": "Call to Action",
+                            "href": "#",
+                            "class": "centered square inverted"
+                        }
+                    },
+                    {
+                        "spacer": "8"
+                    },
+                    "btn-color-3",
+                    {
+                        "spacer": "8"
+                    },
+                    {
+                        "button": {
+                            "content": "Call to Action",
+                            "href": "#",
+                            "class": "btn-color-3"
+                        }
+                    },
+                    {
+                        "spacer": "8"
+                    }
+
+                ]
+            }
+        },
+        { "spacer":"4" },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Content Card</strong> - header and hero image"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "content-card": {
+                "class":"",
+                "content":[
+                    { "h2": "h2 headers are quite common" },
+                    {
+                        "image": {
+                            "desktop-src": "http://via.placeholder.com/300x200",
+                            "mobile-src": "http://via.placeholder.com/300x200",
+                            "alt-text": "alt text here",
+                            "fixed-width": "520"
+                        }
+                    }
+                ]
+            }
+        },
+        { "spacer":"4" },
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Content Card</strong> - header and (not 100% with) stacked hero image(s)"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "content-card": {
+                "class":"",
+                "content":[
+                    { "h2": "h2 headers are quite common" },
+                    {
+                        "image": {
+                            "desktop-src": "http://via.placeholder.com/300x200",
+                            "mobile-src": "http://via.placeholder.com/300x200",
+                            "alt-text": "alt text here",
+                            "fixed-width": "200",
+                            "padding-bottom":"16"
+                        }
+                    },
+                    {
+                        "image": {
+                            "desktop-src": "http://via.placeholder.com/300x200",
+                            "mobile-src": "http://via.placeholder.com/300x200",
+                            "alt-text": "alt text here",
+                            "fixed-width": "200",
+                            "padding-bottom":"16"
+                        }
+                    },
+                    {
+                        "image": {
+                            "desktop-src": "http://via.placeholder.com/300x200",
+                            "mobile-src": "http://via.placeholder.com/300x200",
+                            "alt-text": "alt text here",
+                            "fixed-width": "200"
+                        }
+                    }
+                ]
+            }
+        },
+
+
+
+
+        { "spacer":"64"},
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Image Card</strong> - default 100% width"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "image-card": {
+                "background-color": "",
+                "padding-top": "0",
+                "padding-bottom": "0",
+                "desktop-src": "http://via.placeholder.com/300x200",
+                "mobile-src": "http://via.placeholder.com/300x200",
+                "alt-text": "[Image Alt Text Goes Here]",
+                "fixed-width": "",
+                "fixed-width-mobile": "200",
+                "href": ""
+            }
+        },
+        { "spacer":"4"},
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Image Card</strong> - less than 100% width, with background color and padding (top/bottom)"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "image-card": {
+                "background-color": "red",
+                "padding-top": "32",
+                "padding-bottom": "32",
+                "desktop-src": "http://via.placeholder.com/300x200",
+                "mobile-src": "http://via.placeholder.com/300x200",
+                "alt-text": "[Image Alt Text Goes Here]",
+                "fixed-width": "200",
+                "fixed-width-mobile": "200",
+                "href": ""
+            }
+        },
+
+
+
+
+
+        { "spacer":"64"},
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>Two Column Card</strong> - default"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "two-column-card": {
+                "padding-top": "16",
+                "padding-bottom": "16",
+                "columns": [
+                    {
+                        "large": "6",
+                        "content": [
+                            {
+                                "image": {
+                                    "padding-top": "0",
+                                    "padding-bottom": "16",
+                                    "desktop-src": "http://via.placeholder.com/200x200",
+                                    "mobile-src": "http://via.placeholder.com/200x200",
+                                    "alt-text": "[Image Alt Text Goes Here]",
+                                    "fixed-width": "200",
+                                    "fixed-width-mobile": "200"
+                                }
+                            },
+                            {
+                                "h4": {
+                                    "class": "text-center",
+                                    "content": "Header 4 Example"
+                                }
+                            },
+                            {
+                                "p": {
+                                    "class": "small-text-center no-margin-top",
+                                    "content": "Some simple text to accompany the heading above, possibly expanding on previosly discussed points of interest."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "large": "6",
+                        "content": [
+                            {
+                                "image": {
+                                    "padding-top": "0",
+                                    "padding-bottom": "16",
+                                    "desktop-src": "http://via.placeholder.com/200x200",
+                                    "mobile-src": "http://via.placeholder.com/200x200",
+                                    "alt-text": "[Image Alt Text Goes Here]",
+                                    "fixed-width": "200",
+                                    "fixed-width-mobile": "200"
+                                }
+                            },
+                            {
+                                "h4": {
+                                    "class": "text-center",
+                                    "content": "Header 4 Example"
+                                }
+                            },
+                            {
+                                "p": {
+                                    "class": "small-text-center no-margin-top",
+                                    "content": "Some simple text to accompany the heading above, possibly expanding on previosly discussed points of interest."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+
+
+
+
+
+        { "spacer":"64"},
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>ISI Card</strong> - default (forteo)"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "isi-card": {
+                "default": "forteo",
+                "content": []
+            }
+        },
+        { "spacer":"4"},
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>ISI Card</strong> - non-default content"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "isi-card": {
+                "header":"SOME ISI HEADER HERE",
+                "content": [
+                    { 
+                        "h2": { 
+                            "class":"no-margin",
+                            "content":"SOME ISI HEADER HERE" 
+                        }
+                    },
+                    "Some default paragraph content.",
+                    {
+                        "black-box": [
+                            {
+                                "h2": {
+                                    "class":"no-margin",
+                                    "content":"BLACK BOX HEADER"
+                                }
+                            },
+                            "followed by some important content",
+                            {
+                                "h2": {
+                                    "class":"text-center",
+                                    "content":"BLACK BOX HEADER - 'TEXT-CENTER' CLASS"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+
+
+
+
+
+
+
+        { "spacer":"64"},
+        {
+            "content-card": {
+                "class":"collapse-vertical",
+                "content":[
+                    "<strong>References Card</strong> - default"
+                ]
+            }
+        },
+        { "spacer":"4"},
+        {
+            "references-card": [
+                "list item 1",
+                "reference 2",
+                "reference 3"
+            ]
+        },
+
+
+        { "spacer":"64" }
+    ],
+    "footers": {
+        "trademarkStatement": "<span class='placeholder'>[brand] is a registered trademark</span>",
+        "vermont": "false",
+        "boehringer": "false",
+        "copyrightYear": "2018",
+        "variations": {
+            "lilly": "false",
+            "healthlink": "false",
+            "ska": "false",
+            "aise": "false",
+            "alert": "false",
+            "none": "true"
+        }
+    }
+}
