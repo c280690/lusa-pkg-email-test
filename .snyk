@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:minimatch:20160620':
+    - '*':
+        reason: potentially breaking change
+        expires: '2019-02-08T16:28:27.739Z'
+  'npm:sshpk:20180409':
+    - '*':
+        reason: no upgeade available
+        expires: '2019-02-08T16:57:03.558Z'
+      html-validator > request > http-signature > sshpk:
+        reason: no upgeade available
+        expires: '2019-02-08T17:02:44.580Z'
+  'npm:qs:20170213':
+    - '*':
+        reason: no upgeade available
+        expires: '2019-02-08T16:57:03.558Z'
+      gulp-connect > tiny-lr > body-parser > qs:
+        reason: no upgrade available
+        expires: '2019-02-08T17:02:44.580Z'
+  'npm:marked:20180225':
+    - '*':
+        reason: no upgeade available
+        expires: '2019-02-08T16:57:03.558Z'
+  'npm:fresh:20170908':
+    - '*':
+        reason: no upgeade available
+        expires: '2019-02-08T16:57:03.558Z'
+patch: {}
