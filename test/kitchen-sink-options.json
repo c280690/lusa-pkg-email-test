@@ -1,0 +1,20 @@
+{
+	"mmn": "pp-in-us-0001",
+	"template": "kitchen-sink",
+	"footers": {
+		"lilly":{
+			"boehringer": "true"
+		},
+		"healthlink":"true",
+		"ska":"true",
+		"vae":"true",
+		"noFooter":"true",
+		"alert":{
+			"eNP":"true",
+			"eMD":"true",
+			"ePharm":"true",
+			"ePA":"true",
+			"eHCP":"true"
+		}
+	}
+}

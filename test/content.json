@@ -1,0 +1,128 @@
+{
+  "mmn": "pp-in-us-0001",
+  "approvalMonth": "<span class='placeholder'>MM</span>",
+  "approvalYear": "<span class='placeholder'>YYYY</span>",
+  "build-tool-version": "3.0.5",
+  "previewText": [
+    "placeholder_preview_text"
+  ],
+  "subjectLines": [
+    "placeholder_subject_line"
+  ],
+  "content": [
+    {
+      "audience-statement": {
+        "href": "#",
+        "for-hcp": "true"
+      }
+    },
+    {
+      "branded-header": {
+        "logo-src": "http://via.placeholder.com/350x150",
+        "logo-href": "[logo href here]",
+        "logo-alt-text": "Delebas",
+        "logo-large": "6",
+        "links-large": "6",
+        "prescribing-text": "Prescribing Information",
+        "prescribing-href": "[link goes here]",
+        "isi-and-box-text": "Important Safety Information <nobr>and Boxed Warning</nobr>",
+        "isi-and-box-href": "[link goes here]",
+        "custom-content": ""
+      }
+    },
+    {
+      "spacer": "16"
+    },
+    {
+      "image-card": {
+        "background-color": "",
+        "padding-top": "0",
+        "padding-bottom": "0",
+        "desktop-src": "http://via.placeholder.com/300x200",
+        "mobile-src": "http://via.placeholder.com/300x200",
+        "alt-text": "[Image Alt Text Goes Here]",
+        "fixed-width": "",
+        "fixed-width-mobile": "200",
+        "href": ""
+      }
+    },
+    {
+      "content-card": {
+        "class": "",
+        "content": [
+          {
+            "h2": {
+              "content": "Lorem ipsum dolor sit amet consecteur adiscing elit do eiusmod tempor."
+            }
+          },
+          {
+            "image": {
+              "desktop-src": "http://via.placeholder.com/300x200",
+              "mobile-src": "http://via.placeholder.com/300x200",
+              "alt-text": "alt text here",
+              "fixed-width": "520"
+            }
+          },
+          {
+            "p": {
+              "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+            }
+          },
+          {
+            "ul": [
+              "list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1",
+              "list item 2",
+              "list item 3"
+            ]
+          },
+          {
+            "spacer": "8"
+          },
+          {
+            "button": {
+              "content": "Call to Action",
+              "href": "#",
+              "class": "small-centered"
+            }
+          },
+          {
+            "spacer": "8"
+          }
+        ]
+      }
+    },
+    {
+      "spacer": "16"
+    },
+    {
+      "isi-card": {
+        "default": "forteo",
+        "content": []
+      }
+    },
+    {
+      "spacer": "16"
+    },
+    {
+      "references-card": [
+        "list item 1",
+        "reference 2",
+        "reference 3"
+      ]
+    }
+  ],
+  "footers": {
+    "trademarkStatement": "<span class='placeholder'>[brand] is a registered trademark</span>",
+    "vermont": "false",
+    "boehringer": "false",
+    "copyrightYear": "2018",
+    "variations": {
+      "lilly": "false",
+      "healthlink": "false",
+      "ska": "false",
+      "vae": "false",
+      "alert": "false",
+      "none": "false"
+    }
+  }
+}
