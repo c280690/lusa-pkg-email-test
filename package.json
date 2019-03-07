@@ -2,9 +2,9 @@
   "name": "lusa-pkg-email-templates",
   "description": "Developer tool to generate emails from templates.",
   "version": "3.2.1",
-  "displayName": "lusa-pkg-email-template",
+  "displayName": "lusa-pkg-email-test",
   "main": "lib/index.js",
-  "repository": "https://github.com/EliLillyCo/lusa-pkg-email-templates.git",
+  "repository": "https://github.com/c280690/lusa-pkg-email-test.git",
   "author": "LUSA",
   "contributors": [
     "Ricardo Luna <rluna@lilly.com>",
