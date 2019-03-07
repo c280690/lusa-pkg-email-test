@@ -1,0 +1,17 @@
+{
+  "exceptions" : [
+  	"https://nodesecurity.io/advisories/118",
+  	"https://nodesecurity.io/advisories/535",
+  	"https://nodesecurity.io/advisories/526",
+  	"https://nodesecurity.io/advisories/106",
+  	"https://nodesecurity.io/advisories/534",
+  	"https://nodesecurity.io/advisories/479",
+  	"https://nodesecurity.io/advisories/566",
+  	"https://nodesecurity.io/advisories/567",
+    "https://nodesecurity.io/advisories/598",
+    "https://nodesecurity.io/advisories/664",
+    "https://nodesecurity.io/advisories/646",
+    "https://nodesecurity.io/advisories/606",
+    "https://nodesecurity.io/advisories/577"
+  	]
+}
