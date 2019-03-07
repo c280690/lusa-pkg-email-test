@@ -1,0 +1,39 @@
+            <!-- ####################################################### -->
+            <!-- START COLUMNS CARD -->
+            <container class="two-column-card">
+                {{#if padding-top}}
+                <row>
+                    <columns>
+                        <spacer size="{{padding-top}}"></spacer>
+                    </columns>
+                </row>
+                {{/if}}
+                <row>
+                    <columns small="12" large="12">
+                        <container class="each-column">
+                            <row>
+
+                                {{#each columns}}
+                                    <columns large="{{this.large}}" small="12">
+                                        <wrapper>
+                                            {{#each this.content}}
+                                                {{> html-element this}}
+                                            {{/each}}
+                                        </wrapper>
+                                    </columns>
+                                {{/each}}
+
+                                </row>
+                            </container>
+                    </columns>
+                </row>
+                {{#if padding-bottom}}
+                <row>
+                    <columns>
+                        <spacer size="{{padding-bottom}}"></spacer>
+                    </columns>
+                </row>
+                {{/if}}
+            </container>
+            <!-- END COLUMNS CARD -->
+            <!-- ####################################################### -->

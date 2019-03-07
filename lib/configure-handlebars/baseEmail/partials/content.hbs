@@ -1,0 +1,37 @@
+{{#each content}}
+{{!-- Cards --}}
+	{{#if audience-statement}}
+		{{> audience-statement audience-statement}}
+	{{/if}}
+	{{#if banner-with-button}}
+		{{> banner-with-button banner-with-button}}
+	{{/if}}
+	{{#if unbranded-header}}
+		{{> header-unbranded unbranded-header}}
+	{{/if}}
+	{{#if branded-header}}
+		{{> header-branded branded-header}}
+	{{/if}}
+	{{#if isi-card}}
+		{{> isi-card this}}
+	{{/if}}
+	{{#if references-card}}
+		{{> references-card this}}
+	{{/if}}
+	{{#if image-card}}
+		{{> image-card image-card}}
+	{{/if}}	
+{{!-- Components Available in Root Content List--}}
+	{{#if two-column-card}}
+		{{> two-column-card two-column-card}}
+	{{/if}}
+	{{#if spacer}}
+		{{> spacer spacer}}
+	{{/if}}	
+	{{#if content-card}}
+		{{> content-card this}}
+	{{/if}}	
+
+{{/each}}
+
+\{{> footer}}

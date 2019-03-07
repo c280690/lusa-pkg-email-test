@@ -1,0 +1,72 @@
+            <!-- ####################################################### -->
+            <!-- START ISI -->
+
+            {{#if isi-card.default}}
+                {{#if (isValidIsiOption isi-card.default)}}
+                    {{> (returnIsiName isi-card.default)}}
+                {{else}}
+                    <h2 style="color: red; text-align: center;">Invalid ISI Default Option: {{isi-card.default}}.</h2>
+                {{/if}}
+            {{else}}
+
+                <container class="isi-card">
+                    <row>
+                        <columns>
+                            <wrapper class="header">
+
+                                                                            <!--[if gte mso 9]>
+                                           <style type="text/css">
+                                           /* Your Outlook-specific CSS goes here. */
+                                        h1,   h2,   h3,   h4,   h5 {
+                                              font-size: 14px}
+                                           </style>
+                                        <![endif]-->
+                                
+                                <h1>{{{isi-card.header}}}</h1>
+                                
+                            </wrapper>
+                        </columns>
+                    </row>
+                    <row>
+                        <columns>
+                            <wrapper>
+
+                                                                            <!--[if gte mso 9]>
+                                           <style type="text/css">
+                                           /* Your Outlook-specific CSS goes here. */
+                                        h1,   h2,   h3,   h4,   h5 {
+                                              font-size: 14px}
+                                           </style>
+                                        <![endif]-->
+
+                                {{#each isi-card.content}}
+
+                                    {{#if black-box}}
+                                        <container class="black-box">
+                                            <row>
+                                                <columns>
+                                                    <wrapper>
+                                                        
+                                                        {{#each black-box}}
+                                                            {{> html-element this}}
+                                                        {{/each}}
+                                                        
+                                                    </wrapper>
+                                                </columns>
+                                            </row>
+                                        </container>                                
+                                    {{else}}
+                                        {{> html-element this}}
+                                    {{/if}}
+
+                                {{/each}}
+
+                            </wrapper>
+                        </columns>
+                    </row>
+
+                </container>
+
+            {{/if}}
+            <!-- END ISI -->
+            <!-- ################################################# -->

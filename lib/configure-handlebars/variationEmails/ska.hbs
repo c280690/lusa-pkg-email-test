@@ -1,0 +1,51 @@
+            <!-- ############################################## -->
+            <!-- START FOOTER SK&A -->
+            <container class="footer transparent">
+                <row>
+                    <columns>
+                        <wrapper>
+
+                            {{#if footers.trademarkStatement}}
+                            <p class="small-text-center footer-small-text no-margin-top">
+                                {{{ footers.trademarkStatement}}} owned or licensed by Eli Lilly and Company, its subsidiaries, or affiliates.
+                            </p>
+                            {{/if}}
+
+                            {{#if (returnBoolean footers.vermont) }}
+                                {{> vermont-statement}}
+                            {{/if}}
+
+                            <p class="small-text-center no-margin-top">
+                                <b>Do not reply to this email.</b> If you have a question about a Lilly product, please call <strong><span style="white-space: nowrap">1-800-LillyRx</span> <span style="white-space: nowrap">(1-800-5&#8203;45-5979)</span></strong>.
+                            </p>
+                            
+                            <p class="small-text-center no-margin-top">
+                                This message was sent to you because you have agreed to receive information from SK&amp;A, an IQVIA company, and our partners. This is a promotional message. If you no longer wish to receive emails from SK&amp;A, please 
+                                <a href="https://lskaoo.myregistrationp.com/" target="_blank" >
+                                    click here</a>.<span style="margin-bottom: 16px;">&nbsp;</span>
+                            </p>
+
+                            <p class="small-text-center">
+                                SK&amp;A, an IQVIA company<br/>
+                                2601 Main Street<br/>
+                                Suite 650<br/>
+                                Irvine, CA 92614<br/>
+                                <a href="https://www.skainfo.com " target="_blank">
+                                    www.skainfo.com
+                                </a>
+                            </p>
+
+                            {{> lilly-opt-in}}
+
+                            {{#if (returnBoolean footers.boehringer)}}
+                                {{> boehringer-disclaimers}}
+                            {{else}}
+                                {{> disclaimers}}
+                            {{/if}}
+                        
+                        </wrapper>
+                    </columns>
+                </row>
+            </container>
+            <!-- END FOOTER -->
+            <!-- ############################################## -->

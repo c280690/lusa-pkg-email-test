@@ -1,0 +1,79 @@
+{{#if (isConsumerEmail emailType)}}
+        { "spacer":"16" },
+        {
+            "content-card":{
+                "class":"collapse-vertical",
+                "content":[
+                    {
+                        "p":{
+                            "class":"text-center disclaimer",
+                            "content":"Questions about BRAND? Call 1-844-BND-INFO (1-800-###-####)"
+                        }
+                    }
+                ]
+            }
+        },
+        { "spacer":"16" },
+        {
+            "content-card":{
+                "class":"collapse-vertical",
+                "content":[
+                    {
+                        "p":{
+                            "class":"text-center disclaimer",
+                            "content":"Topics covered in this e-mail: <a href='#' style='font-size: 12px; font-weight: normal;' class='disclaimer'>Getting Started</a> | <a href='#' style='font-size: 12px; font-weight: normal;' class='disclaimer'>What to Expect</a> | <a href='#' style='font-size: 12px; font-weight: normal;' class='disclaimer'>Save on BRAND</a>"
+                        }
+                    }
+                ]
+            }
+        },
+        { "spacer":"16" }
+
+{{else}}
+
+        {
+            "content-card": {
+                "class": "",
+                "content": [
+                    {
+                        "h2": {
+                            "content": "Lorem ipsum dolor sit amet consecteur adiscing elit do eiusmod tempor."
+                        }
+                    },
+                    {
+                        "image": {
+                            "desktop-src":"http://via.placeholder.com/300x200",
+                            "mobile-src":"http://via.placeholder.com/300x200",
+                            "alt-text":"alt text here",
+                            "fixed-width":"520"
+                        }
+                    },
+                    {
+                        "p": {
+                            "content": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+                        }
+                    },
+                    {
+                        "ul": [
+                            "list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1list item 1",
+                            "list item 2",
+                            "list item 3"
+                        ]
+                    },
+                    {
+                        "spacer": "8"
+                    },
+                    {
+                        "button": {
+                            "content": "Call to Action",
+                            "href": "#",
+                            "class": "small-centered"
+                        }
+                    },
+                    {
+                        "spacer": "8"
+                    }
+                ]
+            }
+        }
+{{/if}}

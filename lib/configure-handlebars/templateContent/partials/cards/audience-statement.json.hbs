@@ -1,0 +1,13 @@
+		{
+			"audience-statement":{
+				{{#if (isVAE emailType)}}
+				{{else}}
+					"href":"#",
+				{{/if}}
+				{{#if (isConsumerEmail emailType)}}
+					"for-hcp":"false"
+				{{else}}
+					"for-hcp":"true"
+				{{/if}}
+			}
+		}

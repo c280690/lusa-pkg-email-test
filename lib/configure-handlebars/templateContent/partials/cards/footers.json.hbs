@@ -1,0 +1,56 @@
+
+    "footers": {
+        "trademarkStatement":"<span class='placeholder'>[brand] is a registered trademark</span>",
+        "vermont":"false",
+        "boehringer":"false",
+        "copyrightYear":"2018",
+        "variations": {
+            {{#if footers.variations.lilly}}
+            "lilly": "true",
+            {{else}}
+            "lilly":"false",
+            {{/if}}
+            {{#if footers.variations.healthlink}}
+            "healthlink":"true",
+            {{else}}
+            "healthlink":"false",
+            {{/if}}
+            {{#if footers.variations.ska}}
+            "ska":"true",
+            {{else}}
+            "ska":"false",
+            {{/if}}
+            {{#if footers.variations.vae}}
+            "vae":"true",
+            {{else}}
+            "vae":"false",
+            {{/if}}
+            {{#if footers.variations.consumer}}
+            "consumer":"true",
+            {{else}}
+            "consumer":"false",
+            {{/if}}
+            {{#if footers.variations.copay}}
+            "copay":"true",
+            {{else}}
+            "copay":"false",
+            {{/if}}
+            {{#if footers.variations.alert}}
+            "alert":{
+                "PA": "true",
+                "MD":"true",
+                "NP":"true",
+                "HCP":"true",
+                "Pharm":"true"
+            },
+            {{else}}
+            "alert":"false",
+            {{/if}}
+            {{#if footers.variations.none}}
+            "none":"true"
+            {{else}}
+            "none":"false"
+            {{/if}}
+        }
+    }
+

@@ -1,0 +1,24 @@
+            <!-- ############################################## -->
+            <!-- START BANNER WITH BUTTON -->
+
+            <container class="banner-with-button collapse">
+                <row><columns><spacer size="16"></columns></row>
+                <row class="collapse-vertical">
+                    <columns large="8" small="12" valign="middle">
+                        <wrapper>
+                            {{#each content}}
+                                {{> html-element this}}
+                            {{/each}}
+                        </wrapper>
+                    </columns>
+                    <columns large="4" small="12" valign="middle">
+                        <wrapper>
+                            {{> button button}}
+                        </wrapper>
+                    </columns>
+                </row>
+                <row><columns><spacer size="16"></columns></row>
+            </container>
+
+            <!-- END BANNER WITH BUTTON -->
+            <!-- ############################################## -->

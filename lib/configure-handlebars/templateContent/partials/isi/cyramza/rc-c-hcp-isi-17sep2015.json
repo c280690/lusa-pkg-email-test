@@ -1,0 +1,77 @@
+    {
+        "isi-card": {
+          "header":"INDICATION AND IMPORTANT SAFETY INFORMATION, <span class='no-wrap'>INCLUDING BOXED WARNING</span>",
+        "content":[
+          {
+            "h3":{
+              "class":"no-margin-top",
+              "content":"INDICATION"
+            }
+          },
+          "CYRAMZA, in combination with FOLFIRI (irinotecan, folinic acid, and 5-fluorouracil), is indicated for the treatment of patients with metastatic colorectal cancer (mCRC) with disease progression on or after prior therapy with bevacizumab, oxaliplatin, and a fluoropyrimidine.",
+          {
+            "h3":{
+              "class":"",
+              "content":"IMPORTANT SAFETY INFORMATION FOR CYRAMZA"
+            }
+          },
+          {
+            "black-box":[
+                {
+                  "h3":{
+                    "class":"no-margin-top",
+                    "content":"WARNING: HEMORRHAGE, GASTROINTESTINAL PERFORATION, AND IMPAIRED WOUND HEALING"
+                  }
+                },
+                "<strong>Hemorrhage</strong>: CYRAMZA increased the risk of hemorrhage and gastrointestinal hemorrhage, including severe and sometimes fatal hemorrhagic events. Permanently discontinue CYRAMZA in patients who experience severe bleeding.",
+                "<strong>Gastrointestinal Perforation</strong>: CYRAMZA can increase the risk of gastrointestinal perforation, a potentially fatal event. Permanently discontinue CYRAMZA in patients who experience a gastrointestinal perforation.",
+                {
+                  "p":{
+                    "class":"no-margin-bottom",
+                    "content":"<strong>Impaired Wound Healing</strong>: Impaired wound healing can occur with antibodies inhibiting the VEGF pathway. Discontinue CYRAMZA therapy in patients with impaired wound healing. Withhold CYRAMZA prior to surgery and discontinue CYRAMZA if a patient develops wound healing complications."
+                  }
+                }
+              ]
+            },
+            {
+              "h3":{
+                "class":"",
+                "content":"WARNINGS AND PRECAUTIONS"
+              }
+            },
+            "<strong>Hemorrhage</strong><br/>CYRAMZA increased the risk of hemorrhage and gastrointestinal hemorrhage, including severe and sometimes fatal hemorrhagic events. In study 4, which evaluated CYRAMZA plus FOLFIRI in metastatic colorectal cancer, the incidence of severe bleeding was 2.5% for CYRAMZA plus FOLFIRI and 1.7% for placebo plus FOLFIRI. Permanently discontinue CYRAMZA in patients who experience severe bleeding.",
+            "<strong>Arterial Thromboembolic Events (ATEs)</strong><br/>Serious, sometimes fatal, ATEs including myocardial infarction, cardiac arrest, cerebrovascular accident, and cerebral ischemia occurred in clinical trials. Permanently discontinue CYRAMZA in patients who experience a severe ATE.",
+            "<strong>Hypertension</strong><br/>An increased incidence of severe hypertension occurred in patients receiving CYRAMZA plus FOLFIRI (11%) as compared to placebo plus FOLFIRI (3%). Control hypertension prior to initiating treatment with CYRAMZA. Monitor blood pressure every 2 weeks or more frequently as indicated during treatment. Temporarily suspend CYRAMZA for severe hypertension until medically controlled. Permanently discontinue CYRAMZA if medically significant hypertension cannot be controlled with antihypertensive therapy or in patients with hypertensive crisis or hypertensive encephalopathy.",
+            "<strong>Infusion-Related Reactions (IRRs)</strong><br/>Prior to the institution of premedication recommendations across clinical trials of CYRAMZA, IRRs occurred in 6 out of 37 patients (16%), including 2 severe events. The majority of IRRs across trials occurred during or following a first or second CYRAMZA infusion. Symptoms of IRRs included rigors/tremors, back pain/spasms, chest pain and/or tightness, chills, flushing, dyspnea, wheezing, hypoxia, and paresthesia. In severe cases, symptoms included bronchospasm, supraventricular tachycardia, and hypotension. Monitor patients during the infusion for signs and symptoms of IRRs in a setting with available resuscitation equipment. Immediately and permanently discontinue CYRAMZA for grade 3 or 4 IRRs.",
+            "<strong>Gastrointestinal Perforations</strong><br/>CYRAMZA is an antiangiogenic therapy that can increase the risk of gastrointestinal perforation, a potentially fatal event. In study 4, the incidence of gastrointestinal perforation was 1.7% for CYRAMZA plus FOLFIRI and 0.6% for placebo plus FOLFIRI. Permanently discontinue CYRAMZA in patients who experience a gastrointestinal perforation.",
+            "<strong>Impaired Wound Healing</strong><br/>Impaired wound healing can occur with antibodies inhibiting the VEGF pathway. CYRAMZA has not been studied in patients with serious or nonhealing wounds. CYRAMZA, an antiangiogenic therapy, has the potential to adversely affect wound healing. Discontinue CYRAMZA therapy in patients with impaired wound healing. Withhold CYRAMZA prior to surgery. Resume CYRAMZA following the surgical intervention based on clinical judgment of adequate wound healing. If a patient develops wound healing complications during therapy, discontinue CYRAMZA until the wound is fully healed.",
+            "<strong>Clinical Deterioration in Child-Pugh B or C Cirrhosis</strong><br/>Clinical deterioration, manifested by new onset or worsening encephalopathy, ascites, or hepatorenal syndrome, was reported in patients with Child-Pugh B or C cirrhosis who received single-agent CYRAMZA. Use CYRAMZA in patients with Child-Pugh B or C cirrhosis only if the potential benefits of treatment are judged to outweigh the risks of clinical deterioration.",
+            "<strong>Reversible Posterior Leukoencephalopathy Syndrome (RPLS)</strong><br/>RPLS has been reported at a rate of &lt;0.1% in clinical studies with CYRAMZA. Confirm the diagnosis of RPLS with MRI and discontinue CYRAMZA in patients who develop RPLS. Symptoms may resolve or improve within days, although some patients with RPLS can experience ongoing neurologic sequelae or death.",
+            "<strong>Proteinuria Including Nephrotic Syndrome</strong><br/>In study 4, severe proteinuria occurred more frequently in patients treated with CYRAMZA plus FOLFIRI compared to patients receiving placebo plus FOLFIRI. Severe proteinuria was reported in 3% of patients treated with CYRAMZA plus FOLFIRI (including 3 cases [0.6%] of nephrotic syndrome) compared to 0.2% of patients treated with placebo plus FOLFIRI. Monitor proteinuria by urine dipstick and/or urinary protein creatinine ratio for the development of worsening of proteinuria during CYRAMZA therapy. Withhold CYRAMZA for urine protein levels that are ≥2 g over 24 hours. Reinitiate CYRAMZA at a reduced dose once the urine protein level returns to <2 g over 24 hours. Permanently discontinue CYRAMZA for urine protein levels >3 g over 24 hours or in the setting of nephrotic syndrome.",
+            "<strong>Thyroid Dysfunction</strong><br/>Monitor thyroid function during treatment with CYRAMZA. In study 4, the incidence of hypothyroidism reported as an adverse event was 2.6% in the CYRAMZA plus FOLFIRI-treated patients and 0.9% in the placebo plus FOLFIRI-treated patients.",
+            "<strong>Embryofetal Toxicity</strong><br/>Based on its mechanism of action, CYRAMZA can cause fetal harm when administered to pregnant women. Animal models link angiogenesis, VEGF, and VEGF Receptor 2 (VEGFR2) to critical aspects of female reproduction, embryofetal development, and postnatal development. Advise pregnant women of the potential risk to a fetus. Advise females of reproductive potential to use effective contraception during treatment with CYRAMZA and for at least 3 months after the last dose of CYRAMZA.",
+            "<strong>Most Common Adverse Reactions in Combination With FOLFIRI</strong><br/>The most commonly reported adverse reactions (all grades; grade 3/4) occurring in ≥5% of patients receiving CYRAMZA plus FOLFIRI and ≥2% higher than placebo plus FOLFIRI in study 4 were diarrhea (60% vs 51%; 11% vs 10%), neutropenia (59% vs 46%; 38% vs 23%), decreased appetite (37% vs 27%; 2% vs 2%), epistaxis (33% vs 15%; 0% vs 0%), stomatitis (31% vs 21%; 4% vs 2%), thrombocytopenia (28% vs 14%; 3% vs &lt;1%), hypertension (26% vs 9%; 11% vs 3%), peripheral edema (20% vs 9%; &lt;1% vs 0%), proteinuria (17% vs 5%; 3% vs &lt;1%), palmar-plantar erythrodysesthesia syndrome (13% vs 5%; 1% vs &lt;1%), gastrointestinal hemorrhage events (12% vs 7%; 2% vs 1%), hypoalbuminemia (6% vs 2%; 1% vs 0%). Twenty percent of patients treated with CYRAMZA plus FOLFIRI received granulocyte colony-stimulating factors.",
+            "The most common serious adverse events with CYRAMZA plus FOLFIRI were diarrhea (3.6%), intestinal obstruction (3.0%), and febrile neutropenia (2.8%).",
+            "Treatment discontinuation of any study drug due to adverse reactions occurred more frequently in CYRAMZA plus FOLFIRI-treated patients (29%) than in placebo plus FOLFIRI-treated patients (13%). The most common adverse reactions leading to discontinuation of any component of CYRAMZA plus FOLFIRI as compared to placebo plus FOLFIRI were neutropenia (12.5% versus 5.3%) and thrombocytopenia (4.2% versus 0.8%). The most common adverse reactions leading to treatment discontinuation of CYRAMZA were proteinuria (1.5%) and gastrointestinal perforation (1.7%).",
+            "Clinically relevant adverse reactions reported in ≥1% and &lt;5% of CYRAMZA plus FOLFIRI-treated patients in study 4 consisted of gastrointestinal perforation (1.7% CYRAMZA plus FOLFIRI versus 0.6% for placebo plus FOLFIRI).",
+            "Thyroid-stimulating hormone (TSH) was evaluated in 224 patients (115 CYRAMZA plus FOLFIRI-treated patients and 109 placebo plus FOLFIRI-treated patients) with normal baseline TSH levels. Patients received periodic TSH assessments until 30 days after the last dose of study treatment. Increased TSH was observed in 53 (46%) patients treated with CYRAMZA plus FOLFIRI compared with 4 (4%) patients treated with placebo plus FOLFIRI.",
+            {
+              "h3":"DRUG INTERACTIONS"
+            },
+            "No pharmacokinetic interactions were observed between ramucirumab and irinotecan or its active metabolite, SN-38.",
+            {
+              "h3":"USE IN SPECIFIC POPULATIONS"
+            },
+            "Pregnancy: Based on its mechanism of action, CYRAMZA can cause fetal harm. Animal models link angiogenesis, VEGF, and VEGF Receptor 2 (VEGFR2) to critical aspects of female reproduction, embryofetal development, and postnatal development. There are no available data on CYRAMZA use in pregnant women to inform any drug-associated risks. No animal studies have been conducted to evaluate the effect of ramucirumab on reproduction and fetal development. Advise females of reproductive potential of the potential risk for maintaining pregnancy, risk to the fetus, and risk to newborn and infant development, and to use effective contraception during CYRAMZA therapy and for at least 3 months following the last dose of CYRAMZA.",
+            "Lactation: Because of the potential risk for serious adverse reactions in nursing infants from ramucirumab, advise women that breastfeeding is not recommended during treatment with CYRAMZA.",
+            "Females of Reproductive Potential: Advise females of reproductive potential that based on animal data CYRAMZA may impair fertility.",
+            "Please see full <a href='http://uspl.lilly.com/cyramza/cyramza.html' target='blank'>Prescribing Information</a> for CYRAMZA, including Boxed Warning for hemorrhage, gastrointestinal perforation, and impaired wound healing.",
+            {
+              "p":{
+                "class":"no-margin-bottom",
+                "content":"RB-C HCP ISI 17SEP2015"
+              }
+            }
+        ]
+      }
+    }

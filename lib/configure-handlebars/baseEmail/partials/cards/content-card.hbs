@@ -1,0 +1,17 @@
+            <!-- ############################################## -->
+            <!-- START CONTENT-CARD -->
+            <container class="content-card {{#if content-card.class}}{{content-card.class}}{{/if}}">
+                <row>
+                    <columns large="12" small="12">
+                        <wrapper>
+
+                            {{#each content-card.content}}
+                                {{> html-element this}}
+                            {{/each}}
+
+                        </wrapper>
+                    </columns>
+                </row>
+            </container>
+            <!-- END CONTENT-CARD -->
+            <!-- ############################################## -->

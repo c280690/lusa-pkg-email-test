@@ -1,0 +1,39 @@
+            <!-- ############################################## -->
+            <!-- START FOOTER Copay -->
+            <container class="footer transparent">
+                <row>
+                    <columns>
+                        <wrapper>
+
+                            {{#if footers.trademarkStatement}}
+                            <p class="small-text-center footer-small-text no-margin-top">
+                                {{{ footers.trademarkStatement}}} owned or licensed by Eli Lilly and Company, its subsidiaries, or affiliates.
+                            </p>
+                            {{/if}}
+
+                            {{#if (returnBoolean footers.vermont) }}
+                                {{> vermont-statement}}
+                            {{/if}}
+
+                            <p class="small-text-center no-margin-top">
+                                <b>Do not reply to this email.</b>
+                            </p>
+
+                            <p class="small-text-center">
+                                You are receiving this email because you requested a Savings Card from Lilly USA, LLC.
+                            </p>
+
+                            <p class="small-text-center">
+                                If you have a question about your Savings Card, please call <strong><span style="white-space: nowrap">{{footers.variations.copay.phoneLetters}}</span> <span style="white-space: nowrap">{{footers.variations.copay.phoneNumbers}}</span></strong>.
+                            </p>
+                            
+                            {{> if-you-have-a-question}}
+
+                            {{> disclaimers}}
+
+                        </wrapper>
+                    </columns>
+                </row>
+            </container>
+            <!-- END FOOTER -->
+            <!-- ############################################## -->

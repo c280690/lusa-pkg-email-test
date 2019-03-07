@@ -1,0 +1,83 @@
+	{{#if h1}}
+		{{#if h1.content}}
+			<h1 {{#if h1.class}}class="{{h1.class}}"{{/if}}>{{{h1.content}}}</h1>
+			{{else}}
+			<h1>{{{h1}}}</h1>
+		{{/if}}
+	{{else if h2}}
+		{{#if h2.content}}
+		<h2 {{#if h2.class}}class="{{h2.class}}"{{/if}}>{{{h2.content}}}</h2>
+			{{else}}
+			<h2>{{{h2}}}</h2>
+		{{/if}}
+	{{else if h3}}
+		{{#if h3.content}}
+		<h3 {{#if h3.class}}class="{{h3.class}}"{{/if}}>{{{h3.content}}}</h3>
+			{{else}}
+			<h3>{{{h3}}}</h3>
+		{{/if}}
+	{{else if h4}}
+		{{#if h4.content}}
+		<h4 {{#if h4.class}}class="{{h4.class}}"{{/if}}>{{{h4.content}}}</h4>
+			{{else}}
+			<h4>{{{h4}}}</h4>
+		{{/if}}
+	{{else if h5}}
+		{{#if h5.content}}
+		<h5 {{#if h5.class}}class="{{h5.class}}"{{/if}}>{{{h5.content}}}</h5>
+			{{else}}
+			<h5>{{{h5}}}</h5>
+		{{/if}}
+	{{else if h6}}
+		{{#if h6.content}}
+		<h6 {{#if h6.class}}class="{{h6.class}}"{{/if}}>{{{h6.content}}}</h6>
+			{{else}}
+			<h6>{{{h6}}}</h6>
+		{{/if}}
+	{{else if p}}
+		{{#if p.content}}
+		<p {{#if p.class}}class="{{p.class}}"{{/if}}>{{{p.content}}}</p>
+		{{else}}
+		<p> {{{p}}} </p>
+		{{/if}}
+	{{else if span}}
+		{{#if span.content}}
+		<span {{#if span.class}} class="{{span.class}}" {{/if}}{{#if span.style}} style="{{span.style}}"{{/if}}>{{{span.content}}}</span>
+			{{else}}
+			<span>{{{span}}}</span>
+		{{/if}}
+	{{else if center}}
+	<center>
+		{{#if center.content}}
+		<span {{#if center.class}} class="{{center.class}}" {{/if}}{{#if center.style}} style="{{center.style}}"{{/if}}>{{{center.content}}}</span>
+			{{else}}
+			<span>{{{center}}}</span>
+		{{/if}}
+	</center>
+	{{else if image}}
+		{{> image-card image}}
+	{{else if img}}
+		{{> image-card img}}
+	{{else if image-card}}
+		{{> image-card image-card}}
+	{{else if button}}
+		{{> button button}}
+	{{else if btn}}
+		{{> button this}}
+	{{else if spacer}}
+		{{> spacer spacer}}
+	{{else if ol}}
+		<ol>
+		{{#each ol}}
+			<li>{{{this}}}</li>
+		{{/each}}
+		</ol>
+	{{else if ul}}
+		<ul>
+		{{#each ul}}
+			<li>{{{this}}}</li>
+		{{/each}}
+		</ul>
+	{{else}}
+		<p>{{{this}}}</p>
+	{{/if}}

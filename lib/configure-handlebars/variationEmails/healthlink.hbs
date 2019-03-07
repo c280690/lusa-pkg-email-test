@@ -1,0 +1,51 @@
+            <!-- ############################################## -->
+            <!-- START FOOTER Healthlink -->
+            <container class="footer transparent">
+                <row>
+                    <columns>
+                        <wrapper>
+
+                            {{#if footers.trademarkStatement}}
+                            <p class="small-text-center footer-small-text no-margin-top">
+                                {{{ footers.trademarkStatement}}} owned or licensed by Eli Lilly and Company, its subsidiaries, or affiliates.
+                            </p>
+                            {{/if}}
+
+                            {{#if (returnBoolean footers.vermont) }}
+                                {{> vermont-statement}}
+                            {{/if}}
+
+                            <p class="small-text-center no-margin-top">
+                                <b>Do not reply to this email.</b> If you have a question about a Lilly product, please call <strong><span style="white-space: nowrap">1-800-LillyRx</span> <span style="white-space: nowrap">(1-800-5&#8203;45-5979)</span></strong>.
+                            </p>
+                            
+                            <p class="small-text-center">
+                                You are receiving this email because you previously registered to receive information from HealthLink Dimensions, LLC. The HealthLink Dimensions database is a permissioned, professional Healthcare Provider database focusing on healthcare services to the healthcare community. This is a promotional message. To opt out,
+                                <a href="https://lhloo.myregistrationp.com/" target="_blank">
+                                    click here</a>.
+                            </p>
+
+                            <p class="small-text-center" style="">
+                                HealthLink Dimensions, LLC<br />
+                                6 Concourse Parkway<br/>
+                                Suite 1000<br/>
+                                Atlanta, GA 30328<br/>
+                                <a href="https://www.healthlinkdimensions.com " target="_blank" >
+                                    www.healthlinkdimensions.com
+                                </a>
+                            </p>
+
+                            {{> lilly-opt-in}}
+
+                            {{#if (returnBoolean footers.boehringer)}}
+                                {{> boehringer-disclaimers}}
+                            {{else}}
+                                {{> disclaimers}}
+                            {{/if}}
+                        
+                        </wrapper>
+                    </columns>
+                </row>
+            </container>
+            <!-- END FOOTER -->
+            <!-- ############################################## -->

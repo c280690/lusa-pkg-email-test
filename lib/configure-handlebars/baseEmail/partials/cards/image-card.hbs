@@ -1,0 +1,74 @@
+            <!-- ############################################## -->
+            <!-- START IMAGE -->
+            <container class="image-card" {{#if background-color}}
+                                            style="background-color: {{background-color}};"
+                                        {{/if}}>
+                <row class="collapse">
+                    <columns small="12" large="12">
+
+                            {{#if (hasSize padding-top)}}
+                                <spacer size="{{padding-top}}"></spacer>
+                            {{/if}}
+
+                            <table cellspacing="0" cellpadding="0" border="0">
+                                <tr>
+
+                                    <td>
+
+
+                                            <center>
+
+
+                                                {{#if href}}
+                                                    <a href="{{href}}" target="_blank">
+                                                {{/if}}
+
+                                                <img class="show-for-large" 
+
+                                                    alt="{{alt-text}}" 
+                                                    src="{{desktop-src}}" 
+
+                                                    {{#if fixed-width}} 
+                                                        width="{{fixed-width}}"  
+                                                    {{else}} 
+                                                        width="568" 
+                                                    {{/if}}
+                                                    style="
+                                                        {{#if fixed-width}}
+                                                            width: {{fixed-width}}px;
+                                                            max-width: {{fixed-width}}px;
+                                                        {{/if}}
+                                                        {{#if background-color}}
+                                                            background-color:{{background-color}};
+                                                        {{/if}}
+                                                    " 
+                                                />
+
+                                                <!--[if !mso]> <!-- -->
+
+                                                    <img class="hide-for-large" alt="{{alt-text}}" src="{{mobile-src}}" {{#if fixed-width-mobile}} width="{{fixed-width-mobile}}" style="width: {{fixed-width-mobile}}px; max-width: {{fixed-width-mobile}}px;" {{else}} width="252" {{/if}} />
+
+                                                <![endif]-->
+
+                                                {{#if href}}
+                                                    </a>
+                                                {{/if}}
+
+
+                                            </center>
+
+                                    </td>
+
+                                </tr>
+                            </table>
+                                
+                            {{#if (hasSize padding-bottom)}}
+                                <spacer size="{{padding-bottom}}"></spacer>
+                            {{/if}}                     
+
+                    </columns>
+                </row>
+            </container>
+
+            <!-- END IMAGE -->
+            <!-- ############################################## -->

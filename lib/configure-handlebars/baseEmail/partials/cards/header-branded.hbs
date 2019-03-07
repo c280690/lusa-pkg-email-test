@@ -1,0 +1,42 @@
+            <!-- ############################################## -->
+            <!-- START BRANDED HEADER -->
+            
+            <container class="branded-header">
+                <row>
+                    <columns large="{{#if logo-large}}{{logo-large}}{{else}}6{{/if}}" small="12" valign="middle">
+                        <spacer size="16">
+                        <wrapper>
+                            <a href="{{logo-href}}" target="_blank"><img src="{{logo-src}}" alt="{{logo-alt-text}}" height="80"/></a>
+                        </wrapper>
+                        <spacer size="16" class="show-for-large">
+                    </columns>
+                    <columns large="{{#if links-large}}{{links-large}}{{else}}6{{/if}}" small="12" valign="middle">
+                        <spacer size="8">
+                        <wrapper>
+
+                                <p class=" text-right small-text-left no-margin">
+
+                                <!-- check to see if the prescribinng text exists -->
+                                {{#if (returnStringHasLength  prescribing-text) }}
+                                        <a href="{{prescribing-href}}" target="_blank">{{{prescribing-text}}}</a><br>
+                                {{/if}}
+
+                                <!-- check to see if the isi box text exists -->
+                                {{#if (returnStringHasLength  isi-and-box-text) }}
+                                        <a href="{{isi-and-box-href}}" target="_blank">{{{isi-and-box-text}}}</a><br/>
+                                {{/if}}
+
+                                {{#if (returnStringHasLength custom-content) }}
+                                    {{{custom-content}}}
+                                {{/if}}
+
+                                </p>
+
+                    </wrapper>
+                        <spacer size="10">
+                    </columns>
+                </row>
+            </container>             
+            
+            <!-- END BRANDED HEADER -->
+            <!-- ############################################## -->

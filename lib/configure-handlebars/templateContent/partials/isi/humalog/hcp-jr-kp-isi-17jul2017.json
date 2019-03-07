@@ -1,0 +1,59 @@
+    {
+      "isi-card": {
+        "header":"Indication and Important Safety Information",
+        "content":[
+          {
+            "h3":{
+              "class":"no-margin",
+              "content":"INDICATIONS"
+            }
+          },
+          "Humalog is a rapid-acting human insulin analog indicated to improve glycemic control in adults and children with diabetes mellitus.",
+          {
+            "h3":{
+              "class":"no-margin-top",
+              "content":"CONTRAINDICATIONS"
+            }
+          },
+          "Humalog is contraindicated during episodes of hypoglycemia and in patients who are hypersensitive to Humalog or any of its excipients.",
+          {
+            "h3":{
+              "content":"WARNINGS AND PRECAUTIONS"
+            }
+          },
+          "<strong>Never Share a Humalog Junior KwikPen Between Patients</strong>: Humalog Junior KwikPens must never be shared between patients, even if the needle is changed. Patients using Humalog vials must never share needles or syringes with another person. Sharing poses a risk for transmission of blood-borne pathogens.",
+          "<strong>Changes in Insulin Regimen</strong>: Changes may affect glycemic control and predispose to hypoglycemia or hyperglycemia. These changes should be made cautiously under close medical supervision and the frequency of blood glucose monitoring should be increased.",
+          "<strong>Hypoglycemia</strong>: Severe hypoglycemia may be life threatening and can cause seizures or death. Hypoglycemia is the most common adverse reaction of Humalog. The patient’s ability to concentrate and react may be impaired as a result of hypoglycemia. Hypoglycemia can happen suddenly and symptoms may vary for each person and may change over time. Early warning symptoms of hypoglycemia may be different or less pronounced under conditions such as long-standing diabetes, diabetic nerve disease, use of medications such as beta-blockers, or in patients who experience recurrent hypoglycemia. These situations may result in severe hypoglycemia and possibly loss of consciousness prior to the patient’s awareness of hypoglycemia.",
+          "Timing of hypoglycemia usually reflects the time-action profile of administered insulins which may vary in different individuals or at different times in the same individual. Other factors such as changes in food intake, injection site, exercise, and concomitant medications may increase the risk of hypoglycemia.",
+          "Educate patients to recognize and manage hypoglycemia. In patients at higher risk for hypoglycemia and patients with reduced symptomatic awareness, increased frequency of blood glucose monitoring is recommended. Patients with renal or hepatic impairment may be at higher risk of hypoglycemia.",
+          "<strong>Hypersensitivity Reactions</strong>: Severe, life-threatening, generalized allergy, including anaphylaxis, can occur with Humalog. If hypersensitivity reactions occur, discontinue Humalog and treat per standard of care until signs and symptoms resolve.",
+          "<strong>Hypokalemia</strong>: Hypokalemia may be life threatening. Insulins, including Humalog, cause a shift in potassium from the extracellular to intracellular space possibly leading to hypokalemia, which, if untreated, may result in respiratory paralysis, ventricular arrhythmia, and death. Monitor potassium levels in patients at risk for hypokalemia (eg, patients using potassium-lowering medications or medications sensitive to serum potassium concentrations).",
+          "<strong>Fluid Retention and Heart Failure with Concomitant Use of PPAR-gamma Agonists</strong>: Thiazolidinediones (TZDs), which are PPAR-gamma agonists, can cause dose-related fluid retention, particularly when used in combination with insulin, including Humalog. This may lead to or exacerbate heart failure. Observe patients for signs and symptoms of heart failure and consider discontinuation or dose reduction of the PPAR-gamma agonist.",
+          "<strong>Hyperglycemia and Ketoacidosis Due to Insulin Pump Device Malfunction</strong>: Malfunction of the insulin pump device, infusion set, or insulin degradation can rapidly lead to hyperglycemia and ketoacidosis. Patients using subcutaneous insulin infusion pumps must be trained to administer insulin by injection and have alternate insulin therapy available in case of pump failure.",
+          {
+            "h3":"DRUG INTERACTIONS"
+          },
+          "Some medications may alter glucose metabolism, insulin requirements, and the risk for hypoglycemia or hyperglycemia. Signs of hypoglycemia may be reduced or absent in patients taking anti-adrenergic drugs. Particularly close monitoring may be required.",
+          {
+            "h3":"ADVERSE REACTIONS"
+          },
+          "Adverse reactions associated with Humalog include hypoglycemia, hypokalemia, allergic reactions, injection-site reactions, lipodystrophy, pruritus, rash, weight gain, and peripheral edema.",
+          {
+            "h3":"USE IN SPECIFIC POPULATIONS"
+          },
+          "Humalog has not been studied in children with type 1 diabetes less than 3 years of age or in children with type 2 diabetes.",
+          {
+            "h3":"DOSAGE AND ADMINISTRATION"
+          },
+          "Humalog should be given within 15 minutes before or immediately after a meal.",
+          "Humalog can be administered intravenously under medical supervision with close monitoring of blood glucose and potassium levels to avoid hypoglycemia and hypokalemia.",
+          "<strong>For more safety information, please click to access Full Prescribing Information, including Patient Information and pen Instructions for Use.</strong>",
+          {
+            "p":{
+              "class":"no-margin-bottom",
+              "content":"HCP Jr KP ISI 17JUL2017"
+            }
+          }
+        ]
+      }
+    }

@@ -1,0 +1,26 @@
+            <!-- ############################################## -->
+            <!-- START AUDIENCE STATEMENT -->
+
+            <container class="audience-statement transparent collapse">
+                <row>
+                    <columns>
+                        <spacer size="20"/>
+                        <p class="text-center no-margin-top">
+
+                            {{#if href}}
+                                To view this email in a browser, <span class="no-break"><a href="{{href}}" target="_blank">click here</a></span>.<br>
+                            {{/if}}
+
+                            {{#if (returnBoolean for-hcp)}}
+                                This information is intended for US healthcare professionals only.
+                            {{else}}
+                                This information is intended for US residents ages 18 and older.
+                            {{/if}}
+                        </p>
+                        <spacer size="20"/>
+                    </columns>
+                </row>
+            </container>
+
+            <!-- END AUDIENCE STATEMENT -->
+            <!-- ############################################## -->

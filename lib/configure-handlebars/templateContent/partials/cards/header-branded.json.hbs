@@ -1,0 +1,34 @@
+{{#if (isConsumerEmail emailType)}}
+		{
+			"branded-header": {
+			    "logo-src":"http://via.placeholder.com/350x150",
+			    "logo-href":"[logo href here]",
+			    "logo-alt-text":"Delebas",
+			    "logo-large":"6",
+			    "links-large":"6",
+			    "prescribing-text":"Prescribing Information",
+			    "prescribing-href":"[link goes here]",
+			    "isi-and-box-text":"Medication Guide",
+			    "isi-and-box-href":"[link goes here]",
+			    "custom-content":"<a href='#'>Consumer Summary</a>"
+			}
+		},
+{{else}}
+		{
+			"branded-header": {
+			    "logo-src":"http://via.placeholder.com/350x150",
+			    "logo-href":"[logo href here]",
+			    "logo-alt-text":"Delebas",
+			    "logo-large":"6",
+			    "links-large":"6",
+			    "prescribing-text":"Prescribing Information",
+			    "prescribing-href":"[link goes here]",
+			    "isi-and-box-text":"Important Safety Information <nobr>and Boxed Warning</nobr>",
+			    "isi-and-box-href":"[link goes here]",
+			    "custom-content":""
+			}
+		},
+{{/if}}
+		{
+			"spacer":"16"
+		}

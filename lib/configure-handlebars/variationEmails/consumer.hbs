@@ -1,0 +1,39 @@
+            <!-- ############################################## -->
+            <!-- START FOOTER Lilly -->
+            <container class="footer transparent">
+                <row>
+                    <columns>
+                        <wrapper>
+
+                            {{#if footers.trademarkStatement}}
+                            <p class="small-text-center footer-small-text no-margin-top">
+                                {{{ footers.trademarkStatement}}} owned or licensed by Eli Lilly and Company, its subsidiaries, or affiliates.
+                            </p>
+                            {{/if}}
+
+                            {{#if (returnBoolean footers.vermont) }}
+                                {{> vermont-statement}}
+                            {{/if}}
+
+                            <p class="small-text-center no-margin-top">
+                                <b>Do not reply to this email.</b> If you have a question about a Lilly product, please call <strong><span style="white-space: nowrap">1-800-LillyRx</span> <span style="white-space: nowrap">(1-800-5&#8203;45-5979)</span></strong>.
+                            </p>
+
+                            <p class="small-text-center">
+                                You are receiving this email because you previously registered to receive information from Lilly USA, LLC. This is a promotional message. If you do not wish to receive future emails from Lilly USA, LLC, <a href="https://www.myregistrationc.com/OptOut.aspx" target="_blank">click here</a> or call <strong><span style="white-space: nowrap">1-800-LillyRx</span> <span style="white-space: nowrap">(1-800-5&#8203;45-5979)</span></strong>.
+                            </p>
+
+                            {{> lilly-address}}
+
+                            {{#if (returnBoolean footers.boehringer)}}
+                                {{> boehringer-disclaimers}}
+                            {{else}}
+                                {{> disclaimers}}
+                            {{/if}}
+
+                        </wrapper>
+                    </columns>
+                </row>
+            </container>
+            <!-- END FOOTER -->
+            <!-- ############################################## -->
