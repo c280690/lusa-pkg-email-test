@@ -1,0 +1,59 @@
+{
+  "name": "lusa-pkg-email-templates",
+  "description": "Developer tool to generate emails from templates.",
+  "version": "3.2.1",
+  "displayName": "lusa-pkg-email-template",
+  "main": "lib/index.js",
+  "repository": "https://github.com/EliLillyCo/lusa-pkg-email-templates.git",
+  "author": "LUSA",
+  "contributors": [
+    "Ricardo Luna <rluna@lilly.com>",
+    "Daniel Mitchell <mitchell_daniel_d@lilly.com>",
+    "Bradley Ridge <ridge_bradley_j@lilly.com>"
+  ],
+  "private": true,
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint .",
+    "coverage": "./node_modules/.bin/nyc --reporter=lcov --reporter=text npm test",
+    "test": "mocha 'lib/**/*.test.js'",
+    "snyktest": "snyk auth 63d1a597-f300-44d1-ace4-f4ca4872afc7 && snyk test",
+    "snyk:wizard": "snyk auth 63d1a597-f300-44d1-ace4-f4ca4872afc7 && snyk wizard"
+  },
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^5.2.0",
+    "snyk": "^1.94.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "fs-extra": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-connect": "^5.2.0",
+    "gulp-html-beautify": "^1.0.1",
+    "gulp-inline-css": "^3.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-stream-to-promise": "^0.1.0",
+    "gulp-strip-comments": "^2.5.2",
+    "handlebars": "^4.0.11",
+    "html-minifier": "^3.5.19",
+    "html-tag-validator": "^1.6.0",
+    "html-validator": "^3.0.5",
+    "inky": "^1.3.7",
+    "inquirer": "^5.1.0",
+    "nyc": "^11.8.0",
+    "panini": "^1.6.0",
+    "recursive-readdir": "^2.2.2",
+    "sinon": "^6.0.0",
+    "siphon-media-query": "^1.0.0",
+    "w3c-validate": "0.0.2"
+  }
+}

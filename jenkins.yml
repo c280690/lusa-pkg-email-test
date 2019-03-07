@@ -1,0 +1,3 @@
+checkmarx_warn_severity: high
+snyk_fail_severity: high
+slack_channel: lusa-ips-ops
