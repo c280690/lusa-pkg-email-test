@@ -1,0 +1,25 @@
+### Output Testing
+
+Output testing takes place AFTER development of all in-scope feature for every two week sprint, immediately following each beta release.
+
+#### 1. Prerequisites
+- [ ] clone [lusa-email-boilerplate](https://github.com/elilillyco/lusa-email-boilerplate)
+- [ ] change package.json lusa-pkg-email-templates dependency to beta version
+- [ ] install dependencies
+
+#### 2. Functional Test
+- [ ] build a new template
+```bash
+npm run build pp-in-us-0001 kitchen-sink lilly,healthlink,ska,alert,none
+```
+- [ ] `npm run rebuild`
+- [ ] `npm run develop`
+
+#### 3. Generate New `test/output-test/output.html`
+- [ ] copy contents of `test/output-test` into src directory
+- [ ] rebuild content
+- [ ] place output.html content into lusa-pkg-email-templates
+- [ ] push code and analyze differences
+
+#### 4. Analyze Output
+Using the difference tool in github, analyze the changes made to output.html, verifying changes which were in scope for this sprint, and noting any unexpected changes to content, styles, etcetera.
