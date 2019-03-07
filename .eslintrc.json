@@ -1,0 +1,21 @@
+{
+  "extends": "airbnb/base",
+  "parserOptions": {
+    "sourceType": "script"
+  },
+  "rules": {
+    "prefer-destructuring": ["error", {"object": false, "array": false}],
+    "no-use-before-define": ["error", { "functions": false, "classes": true }],
+    "no-param-reassign": [0, {"props": false}],
+
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "functions": "never",
+        "objects": "always-multiline"
+      }
+    ],
+    "strict": ["error", "global"]
+  }
+}
