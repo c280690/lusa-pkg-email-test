@@ -1,0 +1,237 @@
+//  Lilly Marketing Studios Email Settings
+//  --------------------------------------
+//  
+//  Table of Contents:
+//
+//  1. Global
+//  2. Typography
+//  3. Colors
+//	4. Buttons
+
+//  --------------------------------------
+//  1. Colors
+//  --------------------------------------
+
+//  Lilly Colors
+	//  Primary Colors
+$lilly-red: #D52B1E;
+$lilly-medium-grey: #A59D95;
+$button-margin: 24px 24px 24px 24px;
+$lilly-dark-grey: #82786F;
+	//  Neutral Colors
+$lilly-white: #FFFFFF;
+$lilly-khaki: #D3BF96;
+	//  Dark Colors
+$lilly-brown: #573938;
+$lilly-dark-green: #275E37;
+$lilly-dark-blue: #263F6A;
+	//  Bright Colors
+$lilly-orange: #FF6D22;
+$lilly-yellow: #FED100;
+$lilly-green: #00AF3F;
+$lilly-blue: #00A1DE;
+$lilly-purple: #B1059D;
+
+//  Brand Colors
+	//  Humatrope
+$humatrope-color-1: #583E87;
+$humatrope-color-2:#7A8387;
+$humatrope-color-3: #F39D1A;
+$humatrope-color-4: #00A0B1;
+$humatrope-color-5: #E8E8E8;
+	//  Alimta
+$alimta-color-1: #111083;
+$alimta-color-2: #5971B3;
+$alimta-color-3: #FF8500;
+$alimta-color-4: #D3BF96;
+$alimta-color-5: #6B6529;
+	//Verzenio
+$verzenio-color-1: #00ABC7;
+$verzenio-color-2: #301946;
+$verzenio-color-3: #00698F;
+$verzenio-color-4: #C1B8BF;
+$verzenio-color-5: #AB989C;
+$verzenio-color-6: #E6ECEC;
+	//Taltz
+$taltz-color-1: #49A942;
+$taltz-color-2: #33632E;
+$taltz-color-3: #C3D141;
+$taltz-color-4: #BACB96;
+$taltz-color-5: #475666;
+$taltz-color-6: #B0C2C9;
+$taltz-color-7: #B0C2C9;
+	//Cyramza
+$cyramza-color-1: #A78E70; // beige
+$cyramza-color-2: #D44927; // red
+$cyramza-color-3: #7D9AAA; // light blue-grey
+$cyramza-color-4: #666666; // dark grey
+	//Forteo
+$forteo-color-1: #032B64; // dark blue
+$forteo-color-2: #709ACB; // light blue
+
+	//Humalog
+$humalog-color-1: #850057; // burgundy
+$humalog-color-2: #532E60; // purple
+$humalog-color-3: #DC0451; // magenta
+$humalog-color-4: #CD202C; // red
+$humalog-color-5: #E17000; // orange
+$humalog-color-6: #F0AB00; // yellow
+$humalog-color-7: #766A62; // dark gray
+$humalog-color-8: #988F86; // medium gray
+$humalog-color-9: #B7B1A9; // light gray
+$hulalog-color-10: #D5D2CA; // soft gray
+
+
+
+//  --------------------------------------
+//  2. Global
+//  --------------------------------------
+
+// $global-width: 100%; /* !!! IMPORTANT !!!*/
+// $global-gutter: 5%;$global-padding: 0px;
+// $global-margin: 0px;
+// $global-radius: 3px;					
+// $global-breakpoint: 600px;
+// $global-background: #f7f7f9;			//same as body background
+
+
+
+//  --------------------------------------
+//  3. Typography - Desktop
+//  --------------------------------------
+
+//	global values
+$default-font-color: #393939;
+$default-font-family: Arial, Helvetica, sans-serif !default;
+
+//	typography values
+$h1-font-size: 56px !default;
+$h1-font-weight: normal;
+$h1-line-height: 72px;
+$h1-margin-bottom: 24px;
+
+$h2-font-size: 36px !default;
+$h2-font-weight: bold;
+$h2-line-height: 48px;
+$h2-margin-bottom: 24px;
+
+$h3-font-size: 24px !default;
+$h3-font-weight: normal;
+$h3-line-height: 32px;
+$h3-margin-bottom: 24px;
+
+$h4-font-size: 18px !default;
+$h4-font-weight: bold;
+$h4-line-height: 32px;
+$h4-margin-bottom: 16px;
+
+$h5-font-size: 16px !default;
+$h5-font-weight: normal;
+$h5-line-height: 24px;
+$h5-margin-bottom: 8px;
+
+$h6-font-size: 14px !default;
+$h6-font-weight: normal;
+$h6-line-height: 24px;
+$h6-margin-bottom: 16px;
+
+$default-font-size: 14px;
+$default-font-weight: normal;
+$default-line-height: 24px;
+$default-margin-bottom: 16px;
+
+$anchor-color: $lilly-blue;
+$anchor-font-weight: bold;
+$anchor-text-decoration: underline;
+$anchor-color-hover: darken($anchor-color, 10%) !default;
+$anchor-color-active: darken($anchor-color, 10%) !default;
+$anchor-color-visited: darken($anchor-color, 10%) !default;
+
+//  --------------------------------------
+//  4. Typography - Mobile
+//  --------------------------------------
+$h1-font-size-mobile: 36px !default;
+$h1-font-weight-mobile: normal;
+$h1-line-height-mobile: 48px;
+$h1-margin-bottom-mobile: 24px;
+
+$h2-font-size-mobile: 24px !default;
+$h2-font-weight-mobile: bold;
+$h2-line-height-mobile: 32px;
+$h2-margin-bottom-mobile: 24px;
+
+$h3-font-size-mobile: 18px !default;
+$h3-font-weight-mobile: normal;
+$h3-line-height-mobile: 24px;
+$h3-margin-bottom-mobile: 24px;
+
+$h4-font-size-mobile: 16px !default;
+$h4-font-weight-mobile: bold;
+$h4-line-height-mobile: 32px;
+$h4-margin-bottom-mobile: 8px;
+
+$h5-font-size-mobile: 14px !default;
+$h5-font-weight-mobile: normal;
+$h5-line-height-mobile: 24px;
+$h5-margin-bottom-mobile: 8px;
+
+$h6-font-size-mobile: 12px !default;
+$h6-font-weight-mobile: normal;
+$h6-line-height-mobile: 16px;
+$h6-margin-bottom-mobile: 8px;
+
+
+//  --------------------------------------
+//  4. Buttons
+//  --------------------------------------
+
+$btn-color: $lilly-red;
+$btn-font-size: 16px;
+$btn-font-weight: bold;
+$btn-line-height: 24px;
+$btn-padding: 8px 32px 8px 32px;
+$btn-padding-inverted: 6px 30px 6px 30px;
+$btn-margin: 0px;
+$btn-border-width: 2px;
+$btn-radius: 100px;
+
+$btn-color-2: $lilly-green;//*
+$btn-color-3: $lilly-purple;//*
+
+$primary-color: $lilly-red;
+$secondary-color: $lilly-dark-grey;
+
+$background-color-1: $primary-color;
+$background-color-2: $secondary-color;
+
+// entire page background
+$body-background: #F4F4F4;
+
+//content containers within email
+$container-background: #FFFFFF;
+
+$container-background: $container-background;
+$footer-link-color: #00A1DE;
+
+
+
+// padding between containers (vertically)
+$global-padding: 0px;
+
+// padding between containers (horizontally)
+$global-gutter: 0px;
+
+// width of email
+$global-width: 568px;
+
+// width of email in mobile
+$global-width-small: calc(100% - 32px);
+
+//ensures padding of 16px, setting total width to 600px;
+$global-breakpoint: $global-width + 32px;
+
+
+
+
+
+

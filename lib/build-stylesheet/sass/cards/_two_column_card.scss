@@ -1,0 +1,43 @@
+table.container.two-column-card {
+
+
+    .wrapper {
+        max-width: 360px !important;
+    }
+    
+    .wrapper-inner {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    img {
+        margin: auto;
+    }
+
+    h1,h2,h3,h4,h5,h6 {
+        margin-bottom: 0;
+    }
+
+    th.column,
+    th.columns {
+        padding-left: 16px;
+    }
+    th.columns.last,
+    th.column.last {
+      padding-right: 16px;
+    }
+
+    table.container.each-column {
+        .wrapper-inner {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+
+    }
+
+}
+@media only screen and (max-width: $global-breakpoint) {
+    table.container.two-column-card {
+ 
+}
+}

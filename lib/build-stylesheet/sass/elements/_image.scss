@@ -1,0 +1,28 @@
+table.container{
+        
+    img {
+        // width: 100%;
+        // max-width: 568px;
+        // height: auto;
+        //margin: auto;
+    }
+
+    img.hide-for-large {
+        display: table-cell !important;
+    }
+
+}
+
+@media only screen and (max-width: $global-breakpoint) {
+
+    table.container {
+        // img {
+        //     max-width: 100% !important;
+        // }
+
+        // .hide-for-mobile {
+        //     display: table-cell !important;
+        // }
+    }
+    
+}

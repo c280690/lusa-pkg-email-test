@@ -1,0 +1,36 @@
+table.container.branded-header {
+    
+    img {
+        height: 80px;
+        width: auto;
+    }
+
+    p {
+        margin-bottom: 0;
+        Margin-bottom: 0;
+    }
+
+    .wrapper-inner {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+@media only screen and (max-width: 580px) {
+    .hide-for-mobile-580{
+        display: none;
+        width: 0;
+        mso-hide: all;
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width: $global-breakpoint) {
+
+    table.container.branded-header {
+
+        th.columns {
+            margin-bottom: 0 !important;
+        }
+
+    }
+    
+}

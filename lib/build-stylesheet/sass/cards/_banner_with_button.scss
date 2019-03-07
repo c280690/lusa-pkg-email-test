@@ -1,0 +1,28 @@
+table.container.banner-with-button {
+
+    p {
+        margin-bottom: 0;
+        Margin-bottom: 0;
+    }
+
+    .button {
+        margin-left: 0;
+        margin-right: 0;
+        table {
+            td {
+                a {
+                    padding: 6px 12px;       
+                }
+            }
+        }
+    }
+    
+    border-top: 1px solid $secondary-color;
+    border-bottom: 1px solid $secondary-color;    
+}
+
+@media only screen and (max-width: $global-breakpoint) {
+    table.container.banner-with-button {
+    }
+}
+

@@ -1,0 +1,21 @@
+table.container.audience-statement {
+    p {
+        color: $default-font-color;
+        font-size: 12px;
+        margin-bottom: 0;
+        Margin-bottom: 0;
+        line-height: 14px;
+    }
+    a {
+        color: $anchor-color;
+        font-size: 12px;
+        margin: 0px;
+        line-height: 14px;
+    }
+
+    th { // gets rid of extra vertical space in mobile (foundation/inky expander tags)
+        margin-bottom: 0 !important;
+        Margin-bottom: 0 !important;
+    }
+
+}

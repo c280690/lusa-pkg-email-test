@@ -1,0 +1,104 @@
+table.button,
+table.button:hover,
+table.button:active {
+    width: auto;
+    margin: $btn-margin;
+    Margin: $btn-margin;
+
+    &.centered {
+        margin: 0 auto !important;
+    }
+
+    table {
+
+        td {
+            text-align: center;
+            color: $lilly-white;
+            background: $btn-color;
+            border: none;
+            border-radius: 500px;
+
+            a {
+                font-size: $btn-font-size;
+                font-weight: $btn-font-weight;
+                color: $lilly-white;
+                text-decoration: none;
+                display: inline-block;
+                padding: $btn-padding;
+                border: 0px solid $btn-color;
+                border-radius: 500px;
+                margin-bottom: 0;
+                Margin-bottom: 0;
+                text-align: center;
+            }
+        }
+    }
+
+    &.square table td {
+        border-radius: 2px;
+        a {
+            border-radius: 2px;
+        }
+    }
+
+    &.inverted table td {
+        color: $btn-color;
+        background: $lilly-white;
+
+        a {
+            color: $btn-color;
+            border: 2px solid $btn-color;
+            padding: $btn-padding-inverted;
+        }
+
+    }
+
+    &.btn-color-2 {
+        table td {
+            background: $btn-color-2;
+        }
+        &.inverted table td{
+            color: $btn-color-2;
+            background: $lilly-white;
+            a {
+                color: $btn-color-2;
+                border: 2px solid $btn-color-2;
+            }
+        }
+    }
+
+    &.btn-color-3 {
+        table td {
+            background: $btn-color-3;
+        }
+        &.inverted table td{
+            color: $btn-color-3;
+            background: $lilly-white;
+            a {
+                color: $btn-color-3;
+                border: 2px solid $btn-color-3;
+            }
+        }
+    }
+
+    &.white {
+        border:2px solid $lilly-white;
+        color: $lilly-white;
+    }
+}
+
+@media only screen and (max-width: $global-breakpoint) {
+    table.button,
+    table.button:hover,
+    table.button:active {
+        &.small-centered {
+            margin: 0 auto !important;
+        }
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,44 @@
+
+@mixin remove-padding() {
+    padding-top: 0px;
+    padding-right: 0px ;
+    padding-bottom: 0px;
+    padding-left: 0px ;
+}
+
+
+//1) import your own settings, to set beginning (default) values
+@import '_settings',
+
+	// 2) import your own styles to override MY default settings
+	// import custom style variables
+	'../../../../../src/styles.scss',
+
+	// 3) import foundation, to set their own values (if you havent set them already)
+	// import foundation styles
+	'../../../../../node_modules/foundation-emails/scss/foundation-emails.scss',
+
+	// 4)
+	// import custom style variables (again)
+	'../../../../../src/styles.scss',
+
+	// import elements
+	'elements/_button',
+	'elements/_image',
+	'elements/_typography',
+
+	// import footers
+	'footers/_footer',
+
+	// import content-cards
+	'cards/_audience_statement',
+	'cards/_banner_with_button',
+	'cards/_content_card',
+	'cards/_header_branded',
+	'cards/_header_unbranded',
+	'cards/_image_card',
+	'cards/_isi_card',
+	'cards/_references_card',
+	'cards/_two_column_card.scss',
+
+	'_global';

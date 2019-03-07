@@ -1,0 +1,54 @@
+table.container.content-card {
+
+    &.collapse,
+    .row.collapse {
+        @include remove-padding();
+
+        .wrapper-inner {
+            @include remove-padding();
+        }
+    }
+
+    &.collapse-vertical,
+    .row.collapse-vertical {
+        padding-top: 0;
+        padding-bottom: 0 !important;
+        .wrapper-inner {
+            padding-top: 0;
+            padding-bottom: 0 !important;
+        }
+    }
+
+    .background-color-1 {
+        background-color: $background-color-1;
+        .wrapper,
+        .wrapper-inner {
+            background-color: $background-color-1;
+        }
+    }
+
+    .savings-card {
+        border: 1px solid $primary-color;
+        display: inline-block;
+        padding: 8px 16px;
+        text-align: right;
+
+        .label {
+            color: $primary-color;
+            padding-right: 8px;
+            text-align: right;
+            margin-bottom: 0;
+        }
+
+        .content {
+        }
+
+    }
+
+
+}
+@media only screen and (max-width: $global-breakpoint) {
+    table.container.content-card {
+ 
+    }
+}

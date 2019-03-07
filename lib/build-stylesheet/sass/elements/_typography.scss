@@ -1,0 +1,291 @@
+//  Lilly Marketing Studios Email Settings
+//  --------------------------------------
+//  typography settings  
+//
+//
+//  Table of Contents:
+//
+//  1. Typography - Desktop
+//  2. Typography - Mobile
+
+
+
+//  --------------------------------------
+//  1. Desktop(default)
+//  --------------------------------------
+//  
+
+body,
+table.body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+td,
+th,
+a {
+  font-size: $default-font-size;
+  font-weight: $default-font-weight;
+  line-height: $default-line-height;
+  margin-bottom: $default-margin-bottom;
+  Margin-bottom: $default-margin-bottom;
+  color: $default-font-color;
+  padding: 0;
+  margin: 0;
+  Margin: 0;
+  text-align: left;
+
+  &.placeholder {
+    color: $lilly-red;
+    background-color: $lilly-yellow;
+  }
+}
+
+body,
+table.body,
+p,
+li,
+td,
+th {
+  font-size: $default-font-size;
+  line-height: $default-line-height;
+}
+
+h1 {
+  font-size: $h1-font-size;
+  font-weight: $h1-font-weight;
+  line-height: $h1-line-height;
+  margin-bottom: $h1-margin-bottom;
+  Margin-bottom: $h1-margin-bottom;
+}
+
+h2 {
+  font-size: $h2-font-size;
+  font-weight: $h2-font-weight;
+  line-height: $h2-line-height;
+  margin-bottom: $h2-margin-bottom;
+  Margin-bottom: $h2-margin-bottom;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  font-weight: $h3-font-weight;
+  line-height: $h3-line-height;
+  margin-bottom: $h3-margin-bottom;
+  Margin-bottom: $h3-margin-bottom;
+}
+
+h3 {
+  font-size: $h3-font-size;
+  font-weight: $h3-font-weight;
+  line-height: $h3-line-height;
+  margin-bottom: $h3-margin-bottom;
+  Margin-bottom: $h3-margin-bottom;
+}
+
+h4 {
+  font-size: $h4-font-size;
+  font-weight: $h4-font-weight;
+  line-height: $h4-line-height;
+  margin-bottom: $h4-margin-bottom;
+  Margin-bottom: $h4-margin-bottom;
+}
+
+h5 {
+  font-size: $h5-font-size;
+  font-weight: $h5-font-weight;
+  line-height: $h5-line-height;
+  margin-bottom: $h5-margin-bottom;
+  Margin-bottom: $h5-margin-bottom;
+}
+
+h6 {
+  font-size: $h6-font-size;
+  font-weight: $h6-font-weight;
+  line-height: $h6-line-height;
+  margin-bottom: $h6-margin-bottom;
+  Margin-bottom: $h6-margin-bottom;
+}
+
+p {
+  margin-bottom: $default-margin-bottom;
+  Margin-bottom: $default-margin-bottom;
+  margin-top: $default-margin-bottom; // fixes outlook 2013 anchor tag issue
+  Margin-top: $default-margin-bottom;
+
+  &.disclaimer,
+  &.subtext {
+    font-size: 12px !important;
+    line-height: 16px;
+    margin-bottom: 14px;
+    Margin-bottom: 14px;
+  }
+}
+
+a {
+  color: $anchor-color;
+  text-decoration: $anchor-text-decoration;
+  font-weight: $anchor-font-weight;
+  margin: inherit;
+  Margin: inherit;
+
+  &:hover {
+    color: $anchor-color-hover;
+  }
+
+  &:active {
+    color: $anchor-color-active;
+  }
+
+  &:visited {
+    color: $anchor-color-visited;
+  }
+}
+
+h1 a,
+h1 a:visited,
+h2 a,
+h2 a:visited,
+h3 a,
+h3 a:visited,
+h4 a,
+h4 a:visited,
+h5 a,
+h5 a:visited,
+h6 a,
+h6 a:visited {
+  color: $anchor-color;
+}
+
+p,
+h4,
+h5,
+h6 {
+  sup {
+    font-size: inherit;
+    mso-ansi-font-size: 20px;
+  }
+}
+
+h1.primary-color,
+h2.primary-color,
+h3.primary-color,
+h4.primary-color,
+h5.primary-color,
+p.primary-color,
+.primary-color, {
+    color: $primary-color;
+    text-decoration-color: $primary-color;
+}
+
+h1.secondary-color,
+h2.secondary-color,
+h3.secondary-color,
+h4.secondary-color,
+h5.secondary-color,
+p.secondary-color,
+.secondary-color{
+    color: $secondary-color;
+}
+
+h1.white,
+h2.white,
+h3.white,
+h4.white,
+h5.white,
+p.white,
+.white {
+    color: $lilly-white;
+}
+
+
+p, a, li, h1, h2, h3, h4 {
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    hyphens: none;
+}
+
+ul, ol {
+  padding: 0px 24px;
+  list-style-position: outside;
+}
+li {
+  padding-left: 8px;
+}
+
+//  --------------------------------------
+//  2. Mobile(default)
+//  --------------------------------------
+//  
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+
+  h1 {
+    font-size: $h1-font-size-mobile !important;
+    font-weight: $h1-font-weight-mobile !important;
+    line-height: $h1-line-height-mobile !important;
+    margin-bottom: $h1-margin-bottom-mobile !important;
+    Margin-bottom: $h1-margin-bottom-mobile !important;
+  }
+
+  h2 {
+    font-size: $h2-font-size-mobile !important;
+    font-weight: $h2-font-weight-mobile !important;
+    line-height: $h2-line-height-mobile !important;
+    margin-bottom: $h2-margin-bottom-mobile !important;
+    Margin-bottom: $h2-margin-bottom-mobile !important;
+  }
+
+  h3 {
+    font-size: $h3-font-size-mobile !important;
+    font-weight: $h3-font-weight-mobile !important;
+    line-height: $h3-line-height-mobile !important;
+    margin-bottom: $h3-margin-bottom-mobile !important;
+    Margin-bottom: $h3-margin-bottom-mobile !important;
+  }
+
+  h3 {
+    font-size: $h3-font-size-mobile !important;
+    font-weight: $h3-font-weight-mobile !important;
+    line-height: $h3-line-height-mobile !important;
+    margin-bottom: $h3-margin-bottom-mobile !important;
+    Margin-bottom: $h3-margin-bottom-mobile !important;
+  }
+
+  h4 {
+    font-size: $h4-font-size-mobile !important;
+    font-weight: $h4-font-weight-mobile !important;
+    line-height: $h4-line-height-mobile !important;
+    margin-bottom: $h4-margin-bottom-mobile !important;
+    Margin-bottom: $h4-margin-bottom-mobile !important;
+  }
+
+  h5 {
+    font-size: $h5-font-size-mobile !important;
+    font-weight: $h5-font-weight-mobile !important;
+    line-height: $h5-line-height-mobile !important;
+    margin-bottom: $h5-margin-bottom-mobile !important;
+    Margin-bottom: $h5-margin-bottom-mobile !important;
+  }
+
+  h6 {
+    font-size: $h6-font-size-mobile !important;
+    font-weight: $h6-font-weight-mobile !important;
+    line-height: $h6-line-height-mobile !important;
+    margin-bottom: $h6-margin-bottom-mobile !important;
+    Margin-bottom: $h6-margin-bottom-mobile !important;
+  }
+
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+
+}

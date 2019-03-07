@@ -1,0 +1,30 @@
+table.container.references-card {
+
+
+
+
+    ol, ul {
+        padding: 0 16px;
+    }
+
+    .wrapper-inner {
+        padding-bottom: 8px;
+        max-width: 100%;
+    }
+
+
+
+    li {
+        line-height: 16px;
+        margin-bottom: 14px;
+        color: #393939;
+        padding-left: 16px;
+    }
+
+}
+
+@media only screen and (max-width: $global-breakpoint) {
+    table.container.references-card {
+
+    }
+}

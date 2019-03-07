@@ -1,0 +1,87 @@
+table.container.isi-card {
+    
+    .header .wrapper-inner {
+        background-color: $primary-color;
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            margin-bottom: 0px !important;
+            margin-top: 0px !important;
+            color: $lilly-white;
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-size: 14px !important;
+        line-height: 24px !important;
+        margin-bottom: 8px;
+        margin-top: 24px;
+        font-weight: bold !important;
+        color: $isi-header-color;
+    }
+
+
+    .black-box {
+        .wrapper-inner{
+            color: #393939;
+            border: 1px solid #000000;
+            margin: 1px; // GMail fix
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            p,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5 {
+                color: #393939;
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: $global-breakpoint) {
+
+    table.container.isi-card {
+        .black-box {
+            margin: 0 !important;
+            width: 100% !important;
+
+            //for content in actual black box
+            .wrapper-inner {
+                padding-left: 16px !important;
+                padding-right: 16px !important;
+                padding-top: 16px !important;
+                padding-bottom: 10px !important;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

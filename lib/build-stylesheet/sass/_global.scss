@@ -1,0 +1,134 @@
+table.body {
+	margin-bottom: 0 !important;
+	Margin-bottom: 0 !important;
+}
+
+table.container {
+	.placeholder {
+		// background-color: #000000 !important;
+		color: #FF00FF !important;
+		font-weight: bold;
+		text-decoration: underline;
+	}
+
+	.wrapper-inner {
+		background-color: $container-background;
+		//padding: 24px;
+		padding-top: 24px; //double check!
+		padding-bottom: 24px;
+		padding-left: 24px;
+		padding-right: 24px;
+		max-width: 600px; // fixes column grid from being too large
+	}
+
+	&.transparent, 
+	&.transparent .wrapper-inner,
+	&.transparent .wrapper-inner .wrapper-inner  {
+		background-color: $body-background;
+	}
+	&.background-color-1, 
+	&.background-color-1 .wrapper-inner,
+	&.background-color-1 .wrapper-inner .wrapper-inner  {
+		background-color: $background-color-1;
+	}
+	&.background-color-2, 
+	&.background-color-2 .wrapper-inner,
+	&.background-color-2 .wrapper-inner .wrapper-inner  {
+		background-color: $background-color-2;
+	}
+
+	&.collapse
+	.row.collapse {
+		@include remove-padding();
+
+		.wrapper-inner {
+			@include remove-padding();
+			//padding-left: 0px !important;
+		}
+	}
+
+	&.collapse-vertical,
+	.row.collapse-vertical {
+		padding-top: 0;
+		padding-bottom: 0;
+		.wrapper-inner {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+	}
+
+	center {
+		min-width: 100% !important; 
+		width: 100%;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	li {
+		&.no-margin-top {
+			margin-top: 0 !important;
+		}
+	}
+
+	.no-wrap,
+	.no-break {
+		white-space: nowrap !important;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	li {
+		&.no-margin-bottom {
+			margin-bottom: 0 !important;
+		}
+	}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	p,
+	li {
+		&.no-margin {
+			margin-top: 0 !important;
+			margin-bottom: 0 !important;
+		}
+	}
+}
+
+@media only screen and (max-width: $global-breakpoint) {
+	table.container {
+
+		.wrapper-inner {
+			padding-left: 16px !important;
+			padding-right: 16px !important;
+		}
+
+	    th { // gets rid of extra vertical space in mobile (foundation/inky expander tags)
+	        margin-bottom: 0 !important;
+	        Margin-bottom: 0 !important;
+	    }
+		
+		.row.collapse {
+			@include remove-padding();
+
+			.wrapper-inner {
+				padding-left: 0 !important;
+				padding-top: 0 !important;
+				padding-right: 0 !important;
+				padding-bottom: 0 !important;
+			}
+		}
+	}
+}
