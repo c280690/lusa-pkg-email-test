@@ -1,0 +1,5 @@
+{
+	"exclude": [
+		"lib/build-options/ask-user.js"
+	]
+}
